@@ -12,7 +12,7 @@ A simple front-end project built with HTML, CSS, and JavaScript to demonstrate h
 
 ## 💻 Repository
 
-👉 [View source code](https://github.com/devCODEMATE/sudoku-csp-solver))
+👉 [View source code](https://github.com/devCODEMATE/sudoku-csp-solver)
 
 ---
 
