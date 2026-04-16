@@ -6,13 +6,13 @@ A simple front-end project built with HTML, CSS, and JavaScript to demonstrate h
 
 ## 🚀 Live Demo
 
-👉 [View the app](PEGÁ_ACÁ_TU_LINK_DE_GITHUB_PAGES)
+👉 [View the app](https://devcodemate.github.io/sudoku-csp-solver/)
 
 ---
 
 ## 💻 Repository
 
-👉 [View source code](PEGÁ_ACÁ_TU_REPO)
+👉 [View source code](https://github.com/devCODEMATE/sudoku-csp-solver))
 
 ---
 
