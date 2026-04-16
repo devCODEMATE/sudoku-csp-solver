@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudoku CSP Solver</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Sudoku CSP Solver</h1>
+      <p class="subtitle">
+        A simple Sudoku project to explore constraint satisfaction and backtracking.
+      </p>
+    </header>
+
+    <section class="card controls">
+      <button id="solveBtn">Solve Sudoku</button>
+      <button id="resetBtn" class="secondary">Reset</button>
+    </section>
+
+    <section class="card">
+      <h2>Sudoku Board</h2>
+      <div id="board" class="board"></div>
+    </section>
+
+    <section class="card">
+      <h2>CSP View</h2>
+      <ul>
+        <li><strong>Variables:</strong> empty cells</li>
+        <li><strong>Domain:</strong> numbers 1 to 9</li>
+        <li><strong>Constraints:</strong> no repeated numbers in rows, columns, or 3x3 boxes</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Status</h2>
+      <p id="statusText">Board ready. Next step: add solving logic.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

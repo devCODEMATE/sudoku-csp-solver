@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  color: #1f2937;
+  min-height: 100vh;
+  padding: 32px 16px;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #4b5563;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.secondary {
+  background: #6b7280;
+}
+
+h2 {
+  margin-bottom: 14px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(9, 50px);
+  gap: 4px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.cell.prefilled {
+  background: #dbeafe;
+  font-weight: bold;
+}
+
+.cell.box-border-right {
+  margin-right: 6px;
+}
+
+.cell.box-border-bottom {
+  margin-bottom: 6px;
+}
+
+#statusText {
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .board {
+    grid-template-columns: repeat(9, 34px);
+    gap: 3px;
+  }
+
+  .cell {
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+  }
+}
